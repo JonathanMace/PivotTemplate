@@ -56,12 +56,17 @@ footer p {
     margin: 0;
 }
 
+ul {
+    margin-left: -10px;
+}
+
 h3 {
     font-size: 23px;
 }
 
-li {
-    margin-bottom: 3px;
+body #sidebar {
+    line-height: 1.4;
+    font-size: 14px;
 }
 
 #content img {
