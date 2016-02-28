@@ -9,6 +9,11 @@ body {
     font-weight: 200;
 }
 
+#content pre {
+    line-height: 1.2;
+    font-size: 12px;
+}
+
 @media (min-width: 1200px) {
     .container {
         width: 970px;
