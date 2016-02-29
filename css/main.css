@@ -25,6 +25,16 @@ body {
     font-weight: 200;
 }
 
+#content h2 {
+    font-size: 30px;
+    font-weight: 200;
+}
+
+#content h3 {
+    font-size: 27px;
+    font-weight: 200;
+}
+
 #sidebar .sectionlink {
     color: #666666;
 }
