@@ -14,8 +14,8 @@ html body {
 }
 
 html .navbar {
-    -webkit-box-shadow: 0;
-    box-shadow: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
 
 html .navbar .navbar-title {
