@@ -14,9 +14,12 @@ html body {
 }
 
 html .navbar {
-    border-bottom: 1px solid black;
     -webkit-box-shadow: 0;
     box-shadow: 0;
+}
+
+html .navbar .navbar-title {
+    border-bottom: 1px solid black;
 }
 
 .navbar-logo {
