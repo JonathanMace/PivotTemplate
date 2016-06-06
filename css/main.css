@@ -1,4 +1,8 @@
-html {
+html body {
+    font-size: 15px;    
+    /* font-weight: 200; */
+    line-height: 1.3 !important;
+
     position: relative;
     min-height: 100%;
     /* font-family: 'Source Sans Pro',sans-serif !important; */
@@ -6,11 +10,6 @@ html {
     color: #242729 !important;
     -webkit-font-smoothing: antialiased;
     letter-spacing: 0;
-}
-body {
-    font-size: 15px;    
-    /* font-weight: 200; */
-    line-height: 1.3 !important;
 
 }
 
