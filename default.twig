@@ -20,7 +20,7 @@
 
             <a class="navbar-brand" href="{{ baseUrl }}/">
                 {% if logo is defined %}
-                    <img src="{{ logo }}/"></img>
+                    <img src="{{ baseUrl ~ '/' ~ logo }}"></img>
                 {% endif %}
                 {{ title|default('The title') }}
                 {% if subTitle is defined %}
