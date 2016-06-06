@@ -2,8 +2,8 @@ html {
     position: relative;
     min-height: 100%;
     /* font-family: 'Source Sans Pro',sans-serif !important; */
-    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
-    color: #242729;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif !important;
+    color: #242729 !important;
     -webkit-font-smoothing: antialiased;
     letter-spacing: 0;
 }
@@ -59,7 +59,7 @@ body {
 }
 
 #sidebar .sectionlink {
-    color: #666666;
+    color: #242729;
 }
 
 #sidebar .pagelink {
@@ -119,10 +119,12 @@ header.navbar {
     opacity: 0.9;
 }
 .navbar .navbar-brand {
-    font-size: 20px;
+    font-size: 60px;
     height: 100px;
     line-height: 100px;
     margin-left: 20px;
+    padding: 0;
+    color: #242729 !important;
 }
 .navbar .navbar-brand small {
     font-size: 16px;
