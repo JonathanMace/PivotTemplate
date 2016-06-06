@@ -14,10 +14,15 @@ body {
 
 }
 
-.navbar-brand > img {
-    float: left !important;
-    width: 48px !important;
+.navbar-logo {
+    display: block;
+    float: left;
+    margin: 5px 5px 5px 20px;
     padding-right: 10px !important;
+}
+
+.navbar-logo > img {
+    width: 64px;
 }
 
 #content pre {
