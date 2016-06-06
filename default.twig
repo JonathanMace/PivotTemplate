@@ -8,9 +8,11 @@
 
         <link rel="stylesheet" href="{{ baseUrl }}/css/bootstrap.min.css">
         <link rel="stylesheet" href="{{ baseUrl }}/css/font-awesome.min.css">
-        <link rel="stylesheet" href="{{ baseUrl }}/css/highlight.dark.css">
+        <!-- <link rel="stylesheet" href="{{ baseUrl }}/css/highlight.dark.css"> -->
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/styles/default.min.css">
+
         <link rel="stylesheet" href="{{ baseUrl }}/css/main.css">
-            <link href="http://fonts.googleapis.com/css?family=Abel:400|Oswald:300,400,700" media="all" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Abel:400|Oswald:300,400,700" media="all" rel="stylesheet" type="text/css">
     </head>
     <body>
 
@@ -80,7 +82,7 @@
                 {% endif %}
 
 
-                <section id="content" class="{{ menu ? 'col-sm-8 col-lg-9' : 'col-sm-12' }}">
+                <section id="content" class="{{ menu ? 'col-sm-8 col-lg-7' : 'col-sm-12' }}">
                     {{ content|raw }}
                 </section>
 
@@ -89,7 +91,9 @@
 
         <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-        <script src="//yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+        <!-- <script src="//yastatic.net/highlightjs/8.2/highlight.min.js"></script> -->
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/highlight.min.js"></script>
+
 
         <script>
             $(function() {

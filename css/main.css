@@ -1,13 +1,17 @@
 html {
     position: relative;
     min-height: 100%;
-    font-family: 'Source Sans Pro',sans-serif !important;
+    /* font-family: 'Source Sans Pro',sans-serif !important; */
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #242729;
     -webkit-font-smoothing: antialiased;
+    letter-spacing: 0;
 }
 body {
     font-size: 15px;    
-    font-weight: 200;
-    line-height: 1.5 !important;
+    /* font-weight: 200; */
+    line-height: 1.3 !important;
+
 }
 
 #content pre {
