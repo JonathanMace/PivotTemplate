@@ -14,6 +14,12 @@ body {
 
 }
 
+.navbar-brand > img {
+    float: left !important;
+    width: 48px !important;
+    padding-right: 10px !important;
+}
+
 #content pre {
     line-height: 1.2;
     font-size: 12px;
