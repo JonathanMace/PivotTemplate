@@ -18,20 +18,22 @@
 
         <header class="navbar navbar-default navbar-fixed-top">
 
-            <a class="navbar-logo" href="{{ baseUrl }}/">
-                {% if logo is defined %}
-                    <img src="{{ baseUrl ~ '/' ~ logo }}"></img>
-                {% endif %}
-            </a>
+            <div class="navbar-title col-lg-10 col-lg-offset-1">
+                <a class="navbar-logo" href="{{ baseUrl }}/">
+                    {% if logo is defined %}
+                        <img src="{{ baseUrl ~ '/' ~ logo }}"></img>
+                    {% endif %}
+                </a>
 
-            <a class="navbar-brand" href="{{ baseUrl }}/">
-                {{ title|default('The title') }}
-                {% if subTitle is defined %}
-                    <small class="hidden-xs hidden-sm">
-                        {{ subTitle }}
-                    </small>
-                {% endif %}
-            </a>
+                <a class="navbar-brand" href="{{ baseUrl }}/">
+                    {{ title|default('The title') }}
+                    {% if subTitle is defined %}
+                        <small class="hidden-xs hidden-sm">
+                            {{ subTitle }}
+                        </small>
+                    {% endif %}
+                </a>
+            </div>
 
             {% if github is defined %}
                 <a href="https://github.com/{{ github.user }}/{{ github.repo }}">

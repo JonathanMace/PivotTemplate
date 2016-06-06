@@ -13,6 +13,12 @@ html body {
 
 }
 
+html .navbar {
+    border-bottom: 1px solid black;
+    -webkit-box-shadow: 0;
+    box-shadow: 0;
+}
+
 .navbar-logo {
     display: block;
     float: left;
