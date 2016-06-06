@@ -40,7 +40,7 @@
 
                 {% if menu is defined %}
 
-                    <nav id="sidebar" class="col-sm-4 col-lg-3" role="navigation">
+                    <nav id="sidebar" class="col-sm-4 col-lg-3 col-lg-offset-1" role="navigation">
 
                  <!--       <ul class="nav nav-pills nav-stacked">
                             {% for itemId, item in menu.items %}
@@ -82,7 +82,7 @@
                 {% endif %}
 
 
-                <section id="content" class="{{ menu ? 'col-sm-8 col-lg-7' : 'col-sm-12' }}">
+                <section id="content" class="{{ menu ? 'col-sm-8 col-lg-6' : 'col-sm-12' }}">
                     {{ content|raw }}
                 </section>
 
