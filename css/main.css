@@ -120,8 +120,8 @@ header.navbar {
 }
 .navbar .navbar-brand {
     font-size: 20px;
-    height: auto;
-    line-height: 20px;
+    height: 100px;
+    line-height: 100px;
     margin-left: 20px;
 }
 .navbar .navbar-brand small {
